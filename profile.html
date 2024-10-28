@@ -3,132 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payroll Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <div class="sidebar large">
-        <a href="#profile.html" class="item">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 24 24">
-                <path 
-                    fill="currentColor"
-                    d="M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0m0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5z"/>
-            </svg>
-            <p class="small">Profile</p></a>           
-        <a href="#attendance.html" class="item">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 16 16">
-                <path 
-                    fill="currentColor" 
-                    d="M11.917 6A6.002 6.002 0 0 0 0 7a6 6 0 0 0 7 5.917V11.9q-.486.1-1 .1a5 5 0 1 1 4.9-6zM7.72 7.05A.5.5 0 0 0 7.5 7H6.002V4.5l-.009-.09a.5.5 0 0 0-.991.09v3l.008.09a.5.5 0 0 0 .492.41H7.17c.124-.351.311-.672.549-.95M14 7h-4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2m-.5 7h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1m0-2h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1m0-2h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1"/>
-                </svg>
-            <p class="small">Attendance</p></a>
-        <a href="leave.html" class="item">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 24 24">                    
-                <path 
-                    fill="currentColor" 
-                    d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/>
-            </svg>
-            <p class="small">Leave</p></a>
-        <a href="payslip.html" class="item">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 24 24">                    
-                <path 
-                    fill="currentColor" 
-                    d="M16 3a3 3 0 0 1 2.995 2.824L19 6v10h.75c.647 0 1.18.492 1.244 1.122l.006.128V19a3 3 0 0 1-2.824 2.995L18 22H8a3 3 0 0 1-2.995-2.824L5 19V9H3.25a1.25 1.25 0 0 1-1.244-1.122L2 7.75V6a3 3 0 0 1 2.824-2.995L5 3zm0 2H7v14a1 1 0 1 0 2 0v-1.75c0-.69.56-1.25 1.25-1.25H17V6a1 1 0 0 0-1-1m3 13h-8v1c0 .35-.06.687-.17 1H18a1 1 0 0 0 1-1zm-7-6a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2zm2-4a1 1 0 1 1 0 2h-4a1 1 0 0 1 0-2zM5 5a1 1 0 0 0-.993.883L4 6v1h1z"/>
-            </svg>
-            <p class="small">Payslip</p></a>
-        <a href="#index.html" class="item bottom";">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 24 24">
-                <path 
-                    fill="currentColor" 
-                    d="M14.945 1.25c-1.367 0-2.47 0-3.337.117c-.9.12-1.658.38-2.26.981c-.524.525-.79 1.17-.929 1.928c-.135.737-.161 1.638-.167 2.72a.75.75 0 0 0 1.5.008c.006-1.093.034-1.868.142-2.457c.105-.566.272-.895.515-1.138c.277-.277.666-.457 1.4-.556c.755-.101 1.756-.103 3.191-.103h1c1.436 0 2.437.002 3.192.103c.734.099 1.122.28 1.4.556c.276.277.456.665.555 1.4c.102.754.103 1.756.103 3.191v8c0 1.435-.001 2.436-.103 3.192c-.099.734-.279 1.122-.556 1.399s-.665.457-1.399.556c-.755.101-1.756.103-3.192.103h-1c-1.435 0-2.436-.002-3.192-.103c-.733-.099-1.122-.28-1.399-.556c-.243-.244-.41-.572-.515-1.138c-.108-.589-.136-1.364-.142-2.457a.75.75 0 1 0-1.5.008c.006 1.082.032 1.983.167 2.72c.14.758.405 1.403.93 1.928c.601.602 1.36.86 2.26.982c.866.116 1.969.116 3.336.116h1.11c1.368 0 2.47 0 3.337-.116c.9-.122 1.658-.38 2.26-.982s.86-1.36.982-2.26c.116-.867.116-1.97.116-3.337v-8.11c0-1.367 0-2.47-.116-3.337c-.121-.9-.38-1.658-.982-2.26s-1.36-.86-2.26-.981c-.867-.117-1.97-.117-3.337-.117z"/><path fill="currentColor" d="M15 11.25a.75.75 0 0 1 0 1.5H4.027l1.961 1.68a.75.75 0 1 1-.976 1.14l-3.5-3a.75.75 0 0 1 0-1.14l3.5-3a.75.75 0 1 1 .976 1.14l-1.96 1.68z"/>
-            </svg>
-            <p class="small">Logout</p></a>            
-    </div>        
-
-    <!-- Main Content -->
-    <div class="main-content">
-        <h1>Profile</h1>
-        
-        <div class="info-container">
-            <!-- Employee and Work Information -->
-            <div class="main-panel">
-                <!-- Employee Information -->
-                <div class="employee-info card">
-                    <h2>Employee Information</h2>
-                    <div class="employee-details">
-                        <div class="employee-photo">
-                            <img src="profile_picture-placeholder.png" alt="Profile Picture">
-                        </div>
-                        <div class="employee-text">
-                            <h3>Manuel Garcia III</h3>
-                            <p>Chief Executive Officer</p>
-                            <p><strong>Username:</strong> MotorPH0001</p>
-                            <p><strong>Address:</strong> Valero Carpark Building Valero Street 1227, Makati City</p>
-                            <p><strong>Email:</strong> m.garcia@motorph.com</p>
-                            <p><strong>Phone Number:</strong> 966-860-270</p>
-                            <p><strong>Birth Date:</strong> 10/11/1983</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Work Information -->
-                <div class="work-info card">
-                    <h2>Work Information</h2>
-                    <p><strong>Address:</strong> 7 Jupiter Avenue cor. F. Sandoval Jr., Bagong Nayon, Quezon City</p>
-                    <p><strong>City/Town:</strong> Quezon City <span><strong>Zip Code:</strong> 1110</span></p>
-                    <p><strong>Province:</strong> N/A <span><strong>Region:</strong> NCR</span></p>
-                    <p><strong>Email:</strong> corporate@motorph.com</p>
-                    <p><strong>Phone Number:</strong> (028) 911-5071 / (028) 911-5072 / (028) 911-5073</p>
-                </div>
+    <div class="profile-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="profile-image">
+                <!-- Placeholder for Profile Image -->
+                <img src="path-to-profile-image.jpg" alt="Profile Picture">
             </div>
+            <h1>John Doe</h1>
+            <p>Short bio or description about the profile.</p>
+            <h2>Additional Info</h2>
+            <p>Detailed description or bio goes here, spanning multiple lines.</p>
+        </div>
 
-            <!-- Government ID, Bank Information, Emergency Contact -->
-            <div class="other-information-panel">
-                <!-- Government ID Information -->
-                <div class="government-id card">
-                    <h2>Government ID</h2>
-                    <p><strong>TIN:</strong> 442-605-657-000</p>
-                    <p><strong>SSS:</strong> 44-4506057-3</p>
-                    <p><strong>Philhealth:</strong> 820126853951</p>
-                    <p><strong>Pag-ibig:</strong> 691295330870</p>
-                </div>
-
-                <!-- Bank Information -->
-                <div class="bank-info card">
-                    <h2>Bank Information</h2>
-                    <p><strong>Bank Name:</strong> UNION BANK OF THE PHILS (IBANK)</p>
-                    <p><strong>Account Type:</strong> PAYROLL</p>
-                    <p><strong>Bank Code:</strong> UBOPPHML</p>
-                    <p><strong>Phone Number:</strong> 235252464641</p>
-                </div>
-
-                <!-- Emergency Contact -->
-                <div class="emergency-contact card">
-                    <h2>Emergency Contact</h2>
-                    <p><strong>Full Name:</strong> Bianca Garcia</p>
-                    <p><strong>Contact Number:</strong> 966-889-370</p>
-                </div>
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="section">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                    <li>Skill 4</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Experience</h3>
+                <ul>
+                    <li>Experience 1</li>
+                    <li>Experience 2</li>
+                    <li>Experience 3</li>
+                    <li>Experience 4</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>Projects</h3>
+                <ul>
+                    <li>Project 1</li>
+                    <li>Project 2</li>
+                    <li>Project 3</li>
+                    <li>Project 4</li>
+                </ul>
             </div>
         </div>
     </div>
