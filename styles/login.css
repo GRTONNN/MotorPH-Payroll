@@ -1,0 +1,56 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(to right, #d8a1f9, #ffa8d6);
+    height: 100vh; /* Full height to center the content */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    background: rgba(255, 255, 255, 0.9); /* Slightly white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 20px; /* Padding inside the container */
+}
+
+.login-form {
+    text-align: center; /* Center text inside the form */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.login-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.login-form button {
+    padding: 10px; /* Padding inside the button */
+    background-color: #6f5cff; /* Button color */
+    color: white; /* Text color for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.login-form button:hover {
+    background-color: #574bc1; /* Darker button color on hover */
+}

@@ -1,4 +1,4 @@
-/* Reset and basic styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
 /* Header and Navigation */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Keep logo and nav on opposite sides */
     align-items: center;
     padding: 20px;
     background: transparent;
@@ -26,10 +26,17 @@ header {
     font-weight: bold;
 }
 
+/* Ensure navigation is aligned to the right */
+nav {
+    margin-left: auto; /* This pushes the nav to the right */
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Space between navigation items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 nav ul li a {
