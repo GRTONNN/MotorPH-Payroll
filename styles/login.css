@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background: linear-gradient(to right, #d8a1f9, #ffa8d6);
+    background: linear-gradient(to right, rgb(216, 161, 249), #ffa8d6);
     height: 100vh; /* Full height to center the content */
     display: flex; /* Use flexbox to center content */
     align-items: center; /* Center vertically */
