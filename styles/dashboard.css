@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff9500;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-info p {
+    margin: 5px 0;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card p, .card ul li {
+    font-size: 16px;
+}
+
+.clock {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clock-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clock-btn:hover {
+    background-color: #218838;
+}
