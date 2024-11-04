@@ -8,4 +8,4 @@ Link to your updated project plan: https://docs.google.com/spreadsheets/d/1ZzCiC
 
 Your project’s GitHub repository: https://github.com/GRTONNN/MotorPH-Payroll.git
 
-Link to your project’s GitHub pages:
+Link to your project’s GitHub pages: https://grtonnn.github.io/MotorPH-Payroll/
