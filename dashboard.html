@@ -8,14 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>Payroll Dashboard</h1>
-        <div class="employee-info">
-            <p>Welcome, <strong>Manuel Garcia III</strong></p>
-            <p>Username: MotorPH0001</p>
-            <p>Title: Chief Executive Officer</p>
+        <div class="header-content">
+            <h1>Payroll Dashboard</h1>
+            <div class="employee-info">
+                <p>Welcome, <strong>Manuel Garcia III</strong></p>
+                <p>Username: MotorPH0001</p>
+                <p>Title: Chief Executive Officer</p>
+            </div>
+        </div>
+        <div class="header-buttons">
+            <a href="profile.html" class="clock-btn" id="clockInButton">Clock In</a>
+            <a href="index.html" id="logout">Logout</a>
         </div>
     </header>
-    
+
     <section class="dashboard">
         <div class="card announcement">
             <h2>Company Announcement</h2>
@@ -52,9 +58,8 @@
         </div>
     </section>
 
-    <section class="clock">
-        <button class="clock-btn">Clock In</button>
-    </section>
-
+    <!-- JavaScript Files -->
+    <script src="scripts/dashboard.js" defer></script>
+    <script src="scripts/logout.js" defer></script>
 </body>
 </html>

@@ -11,30 +11,57 @@ body {
     padding: 20px;
 }
 
+/* Header styles */
 header {
-    background-color: #ff9500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
     color: white;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50; /* or a color of your choice */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.header-buttons a:hover {
+    background-color: #45a049;
 }
 
 .employee-info p {
     margin: 5px 0;
 }
 
+/* Dashboard card styles */
 .dashboard {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
+    padding: 20px;
 }
 
 .card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 
 h2 {
     margin-bottom: 10px;
