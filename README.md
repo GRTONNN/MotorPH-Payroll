@@ -10,4 +10,4 @@ Your project’s GitHub repository: https://github.com/GRTONNN/MotorPH-Payroll.g
 
 Link to your project’s GitHub pages: https://grtonnn.github.io/MotorPH-Payroll/
 
-Link to Test Report(Internal & External): 
+Link to Test Report(Internal & External): https://docs.google.com/spreadsheets/d/1jAlIyV4cJ1oPzXv8_uE7ETKlURzFiv-eu6QqqFkSHxE/edit?usp=sharing
